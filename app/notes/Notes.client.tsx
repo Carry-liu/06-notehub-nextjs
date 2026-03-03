@@ -14,7 +14,7 @@ import Loader from '@/components/Loader/Loader';
 import ErrorMessage from '@/components/ErrorMessage/ErrorMessage';
 
 import type { Note } from '@/types/note';
-import { fetchNotes } from '@/lib/api/notes';
+import { fetchNotes } from '@/lib/api';
 
 const PER_PAGE = 12;
 
